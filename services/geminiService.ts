@@ -18,7 +18,7 @@ const getAi = (): GoogleGenAI | null => {
         return ai;
     }
 
-    const apiKey = process.env.API_KEY;
+    const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
     if (!apiKey) {
         console.error("Gemini API Key is not set in environment variables.");
         return null;
