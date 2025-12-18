@@ -1,0 +1,30 @@
+
+{
+  "name": "celestial-explorer",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://icloudflare-ux.github.io/REPO_NAME/",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  },
+  "devDependencies": {
+    "@google/genai": "^1.33.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "autoprefixer": "^10.4.19",
+    "gh-pages": "^6.1.0",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0"
+  }
+}
